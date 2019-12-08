@@ -21,14 +21,18 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <h5 class="card-title text-center">Sign In</h5>
+            <h5 class="card-title text-center">Register</h5>
             <form class="form-signin">
                 <div class="form-label-group">
-                    <input type="text" id="inputEmail" class="form-control" placeholder="Name" required autofocus>
-                    <label for="inputEmail">Name</label>
+                    <input type="text" id="inputEmail" class="form-control" placeholder="First Name" required>
+                    <label for="inputEmail">First Name</label>
+                </div>
+                <div class="form-label-group">
+                    <input type="text" id="inputEmail" class="form-control" placeholder="Last Name" required>
+                    <label for="inputEmail">Last Name</label>
                 </div>
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
                 <label for="inputEmail">Email address</label>
               </div>
 
